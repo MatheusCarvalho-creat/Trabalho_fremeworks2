@@ -20,6 +20,8 @@ O Backend estará acessível em http://localhost:8080 (ou na porta configurada).
 
 Instale as dependências:Bashnpm install  # ou yarn install
 
+Video: https://1drv.ms/v/c/c39ded010d423fd0/Eat1UVvcGiJEkv1Y9UrI-ukBnR9oA8kHakIa42Ac_7M5aA?e=mkJouU
+
 Configuração da API:Crie um arquivo .env na raiz do projeto Frontend e configure a URL base da sua API Spring Boot. Para execução local, utilize o endereço do Backend local:Snippet de código# URL da API RESTful (Mudar para a URL do Render no Deploy)
 REACT_APP_API_URL=http://localhost:8080/api
 Execução:Inicie a aplicação React:Bashnpm run dev  # ou npm start, dependendo do seu setup
