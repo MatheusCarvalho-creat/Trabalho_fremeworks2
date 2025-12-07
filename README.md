@@ -3,13 +3,18 @@ Aplicação Full-Stack com Spring Boot e React
 📝 Descrição do Projeto
 
 Este projeto é uma aplicação Full-Stack. O sistema consiste em um Backend robusto construído com Spring Boot (Java), que expõe uma API RESTful para gerenciamento de dados, e um Frontend dinâmico desenvolvido em React, responsável por consumir essa API e oferecer a interface ao usuário.
-⚙️ Configuração e Execução LocalSiga os passos abaixo para configurar e executar o projeto em sua máquina local.Pré-requisitosCertifique-se de ter as seguintes ferramentas instaladas:Java 17+ (JDK)MavenNode.js (LTS) e npm ou yarnPasso 1: Configuração do Backend (Spring Boot)Clone o repositório:Bashgit clone https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories
+
+⚙️ Configuração e Execução LocalSiga os passos abaixo para configurar e executar o projeto em sua máquina local.
+
+Pré-requisitosCertifique-se de ter as seguintes ferramentas instaladas:Java 17+ (JDK)MavenNode.js (LTS) e npm ou yarnPasso 1: Configuração do Backend (Spring Boot)Clone o repositório:Bashgit clone https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories
 cd [Nome da Pasta do Backend]
 Configuração do Banco de Dados:Crie um arquivo application.properties (ou similar) no diretório src/main/resources. Configure as variáveis de conexão com o seu banco de dados Aiven (ou uma instância local para testes, se permitido):Properties# Exemplo de configuração Aiven (Substituir pelos seus dados)
 spring.datasource.url=jdbc:postgresql://<HOST_AIVEN>:<PORTA>/<DATABASE_NAME>
 spring.datasource.username=<USERNAME>
 spring.datasource.password=<PASSWORD>
+
 # ... Outras configurações JPA/Hibernate
+
 Instalação de Dependências e Execução:Utilize o Maven para iniciar o serviço:Bashmvn clean install
 mvn spring-boot:run
 O Backend estará acessível em http://localhost:8080 (ou na porta configurada).Se o Swagger estiver implementado, a documentação estará em http://localhost:8080/swagger-ui.html.Passo 2: Configuração do Frontend (React)Navegue para o diretório do Frontend:Bashcd ../[Nome da Pasta do Frontend]
