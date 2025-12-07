@@ -1,5 +1,7 @@
 Aplicação Full-Stack com Spring Boot e React
+
 📝 Descrição do Projeto
+
 Este projeto é uma aplicação Full-Stack. O sistema consiste em um Backend robusto construído com Spring Boot (Java), que expõe uma API RESTful para gerenciamento de dados, e um Frontend dinâmico desenvolvido em React, responsável por consumir essa API e oferecer a interface ao usuário.
 ⚙️ Configuração e Execução LocalSiga os passos abaixo para configurar e executar o projeto em sua máquina local.Pré-requisitosCertifique-se de ter as seguintes ferramentas instaladas:Java 17+ (JDK)MavenNode.js (LTS) e npm ou yarnPasso 1: Configuração do Backend (Spring Boot)Clone o repositório:Bashgit clone https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories
 cd [Nome da Pasta do Backend]
