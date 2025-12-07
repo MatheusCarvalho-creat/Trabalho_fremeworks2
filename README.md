@@ -13,12 +13,13 @@ spring.datasource.url=jdbc:postgresql://<HOST_AIVEN>:<PORTA>/<DATABASE_NAME>
 spring.datasource.username=<USERNAME>
 spring.datasource.password=<PASSWORD>
 
-# ... Outras configurações JPA/Hibernate
 
 Instalação de Dependências e Execução:Utilize o Maven para iniciar o serviço:Bashmvn clean install
 mvn spring-boot:run
 O Backend estará acessível em http://localhost:8080 (ou na porta configurada).Se o Swagger estiver implementado, a documentação estará em http://localhost:8080/swagger-ui.html.Passo 2: Configuração do Frontend (React)Navegue para o diretório do Frontend:Bashcd ../[Nome da Pasta do Frontend]
+
 Instale as dependências:Bashnpm install  # ou yarn install
+
 Configuração da API:Crie um arquivo .env na raiz do projeto Frontend e configure a URL base da sua API Spring Boot. Para execução local, utilize o endereço do Backend local:Snippet de código# URL da API RESTful (Mudar para a URL do Render no Deploy)
 REACT_APP_API_URL=http://localhost:8080/api
 Execução:Inicie a aplicação React:Bashnpm run dev  # ou npm start, dependendo do seu setup
